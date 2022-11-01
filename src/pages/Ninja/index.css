@@ -1,0 +1,26 @@
+:root {
+  --background-image: url("https://res.cloudinary.com/pillario/image/upload/c_thumb,g_custom,w_1920,h_1080/page-background/1a8afd21-5e4c-41e3-a84e-390a2f4fba69?_reload=d4cecf90-5981-11ed-af5a-df2fdc72ed2d");
+  --background-color: #FFF;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.page-ninja {
+  background: var(--background-color) var(--background-image) no-repeat;
+  background-position: top;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.page-wrapper {
+  max-width: 600px;
+  margin: auto;
+}
